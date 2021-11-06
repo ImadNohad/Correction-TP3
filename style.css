@@ -39,7 +39,6 @@ body {
   padding: 0.5rem 0 0 0.5rem;
   width: 48%;
   overflow: hidden;
-  border: 1px red solid;
 }
 
 .heading {
@@ -167,6 +166,10 @@ body {
 
   .right {
     padding: 0;
+  }
+
+  .left {
+    margin-bottom: 2rem;
   }
 
   .rating {
