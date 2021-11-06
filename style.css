@@ -39,6 +39,7 @@ body {
   padding: 0.5rem 0 0 0.5rem;
   width: 48%;
   overflow: hidden;
+  border: 1px red solid;
 }
 
 .heading {
@@ -156,11 +157,16 @@ body {
   .upper {
     flex-direction: column;
     text-align: center;
+    margin-bottom: 1.5rem;
   }
 
   .left,
   .right {
     width: 100%;
+  }
+
+  .right {
+    padding: 0;
   }
 
   .rating {
